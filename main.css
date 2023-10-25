@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    margin-left: 10px;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.navegador, footer {
+    background-color: rgb(0, 171, 171);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px;
+}
+
+h4 {
+    margin-left: 20px;
+}
+
+body ul {
+    font-weight: bold
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(0, 171, 171);
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color:rgb(0, 171, 171);
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgba(0, 171, 171, 0.454);
+    color: black;
+}
+
+.navegador li {
+    list-style: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+.navegador h1 {
+    font-family: 'Lobster Two', sans-serif;
+}
+
+.container_nos, .container_contatos, .container_catalogo {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 10px;
+    width: 100%;
+    display: inline;
+    justify-content: center;
+}
+
+.container_catalogo img {
+    width: 50%;
+    margin-top: 8px;
+}
+
+.container_catalogo {
+    margin-left: 15px;;
+}
+
+ul {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+li {
+    padding: 2px;
+}
+
+#contatos {
+    list-style: none;
+}
+
+#contatos img {
+    width: 20px;
+}
+
+#info {
+    margin-top: 5px;
+    display: flex;
+    justify-content: inline;
+}
+
+#info img {
+    margin-right: 5px;
+    margin-left: 15px;
+}
+
+#info li {
+    list-style: none;
+    padding: 2px;
+    display: inline-block;
+}
+
